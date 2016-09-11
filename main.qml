@@ -8,5 +8,7 @@ ApplicationWindow {
     height: 480
     title: qsTr("Twitter")
 
-    ElementForm {}
+    TweetForm{
+        width: parent.width
+    }
 }
