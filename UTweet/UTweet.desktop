@@ -1,0 +1,7 @@
+[Desktop Entry]
+_Name=UTweet
+Exec=qmlscene %U UTweet/Main.qml
+Icon=UTweet/UTweet.png
+Terminal=false
+Type=Application
+X-Ubuntu-Touch=true

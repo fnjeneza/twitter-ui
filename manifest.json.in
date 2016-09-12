@@ -1,0 +1,16 @@
+{
+    "name": "utweet.francois",
+    "description": "description of UTweet",
+    "architecture": "@CLICK_ARCH@",
+    "title": "UTweet",
+    "hooks": {
+        "UTweet": {
+            "apparmor": "UTweet/UTweet.apparmor",
+            "desktop":  "UTweet/UTweet.desktop"
+        }
+    },
+    "version": "0.1",
+    "maintainer": "njeneza francois <njenezamed@gmail.com>",
+    "framework" : "ubuntu-sdk-15.04.6"
+}
+
