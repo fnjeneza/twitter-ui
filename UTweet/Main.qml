@@ -29,9 +29,10 @@ MainView {
             }
         }
         ListView {
+            property int un : units.gu(1)
             anchors.fill: parent
-            anchors.topMargin:  pageHeader.bottom
-            spacing: units.gu(1)
+            anchors.topMargin:  pageHeader.height + un
+            spacing: un
             model: TweetModel {}
             delegate: tweetDelegate
         }
