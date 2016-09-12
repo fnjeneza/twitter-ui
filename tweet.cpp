@@ -56,39 +56,22 @@ QVariant TweetModel::data(const QModelIndex &index, int role) const
 
     const Tweet &tweet = _tweets[index.row()];
 
-    if(role == UsernameRole)
-    {
+    switch (role) {
+    case UsernameRole:
         return tweet.username();
-    }
-    else if(role == UseridRole)
-    {
+        break;
+    case UseridRole:
         return tweet.userid();
-    }
-    else if(role == UptimeRole)
-    {
+        break;
+    case UptimeRole:
         return tweet.uptime();
-    }
-    else if(role == BodyRole)
-    {
+        break;
+    case BodyRole:
         return tweet.body();
+        break;
+    default:
+        return QVariant();
     }
-//    switch (role) {
-//    case UsernameRole:
-//        return tweet.username();
-//        break;
-//    case UseridRole:
-//        return tweet.userid();
-//        break;
-//    case UptimeRole:
-//        return tweet.uptime();
-//        break;
-//    case BodyRole:
-//        return tweet.body();
-//        break;
-
-//    }
-
-    return QVariant();
 }
 
 QHash<int, QByteArray> TweetModel::roleNames() const {
