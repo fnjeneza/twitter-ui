@@ -23,6 +23,6 @@ ListModel {
         username: "epsilon"
         user: "@epsilon"
         uptime: "6h"
-        body: "hello world from epsilon"
+        body: "hello world from <a href=\"https://www.qwant.fr\"> epsilon</a>"
     }
 }

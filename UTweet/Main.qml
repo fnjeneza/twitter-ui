@@ -1,6 +1,8 @@
 import QtQuick 2.4
-import Ubuntu.Components 1.3
 import QtQuick.Layouts 1.1
+import Ubuntu.Components 1.3
+
+
 
 
 MainView {
@@ -13,30 +15,55 @@ MainView {
     width: units.gu(100)
     height: units.gu(75)
 
-    Page {
-        header: PageHeader {
-            id: pageHeader
-            title: "Tweet app"
-        }
 
-        Component {
-            id: tweetDelegate
-            TweetForm {
-                username.text: model.username
-                user.text: model.user
-                uptime.text: model.uptime
-                body.text: index //model.body
-            }
-        }
-        ListView {
-            property int un : units.gu(1)
-            anchors.fill: parent
-            anchors.topMargin:  pageHeader.height + un
-            spacing: un
-            model: TweetModel {}
-            delegate: tweetDelegate
-        }
+//    AdaptivePageLayout {
+//        anchors.fill: parent
+//        primaryPage: page1
+
+//        Page {
+//            id:page1
+//            header: PageHeader {
+//                id: pageHeader
+//                title: "Tweet app"
+//            }
 
 
-    }
+//            Component {
+//                id: tweetDelegate
+//                TweetForm {
+//                    username.text: model.username
+//                    user.text: model.user
+//                    uptime.text: model.uptime
+//                    body.text: model.body
+//                }
+//            }
+////            ListView {
+////                id: listViewId
+////                property int un : units.gu(1)
+////                anchors.fill: parent
+////                anchors.topMargin:  pageHeader.height + un
+////                spacing: un
+////                model: TweetModel {}
+////                delegate: tweetDelegate
+////            }
+
+//            Button {
+//                text : "go to page2"
+//                anchors.top: pageHeader.bottom
+//                onClicked: page1.pageStack.addPageToCurrentColumn(page1, page2)
+//            }
+
+
+
+
+//        }
+//        Page {
+//            id:page2
+//            header: PageHeader {
+//                title: "Page #2"
+//            }
+//            WebPageView {}
+
+//        }
+//    }
 }

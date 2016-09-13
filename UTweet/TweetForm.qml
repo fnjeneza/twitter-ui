@@ -50,6 +50,9 @@ Item {
                 text: qsTr("write tweet message here")
                 Layout.fillHeight: true
                 Layout.fillWidth: true
+                textFormat: Text.RichText
+                linkColor: UbuntuColors.lightGrey
+                onLinkActivated: Qt.openUrlExternally(link)
                 wrapMode: Text.WrapAtWordBoundaryOrAnywhere
             }
         }
