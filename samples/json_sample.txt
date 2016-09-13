@@ -1,0 +1,357 @@
+{
+  "statuses": [
+    {
+      "created_at": "Tue Sep 13 13:51:03 +0000 2016",
+      "id": 775693278268317696,
+      "id_str": "775693278268317696",
+      "text": "RT @GonzalezCarmen: Secure Channels to \"Exhibit\" Nov 1-3 in Silicon Valley \u25b8 https:\/\/t.co\/42z6wLkMHg @SecureChannels #IoT #ML #API #BigData\u2026",
+      "truncated": false,
+      "entities": {
+        "hashtags": [
+          {
+            "text": "IoT",
+            "indices": [
+              117,
+              121
+            ]
+          },
+          {
+            "text": "ML",
+            "indices": [
+              122,
+              125
+            ]
+          },
+          {
+            "text": "API",
+            "indices": [
+              126,
+              130
+            ]
+          },
+          {
+            "text": "BigData",
+            "indices": [
+              131,
+              139
+            ]
+          },
+          {
+            "text": "InfoSec",
+            "indices": [
+              139,
+              140
+            ]
+          },
+          {
+            "text": "DataCenter",
+            "indices": [
+              139,
+              140
+            ]
+          }
+        ],
+        "symbols": [
+          
+        ],
+        "user_mentions": [
+          {
+            "screen_name": "GonzalezCarmen",
+            "name": "Carmen Gonzalez",
+            "id": 62502991,
+            "id_str": "62502991",
+            "indices": [
+              3,
+              18
+            ]
+          },
+          {
+            "screen_name": "SecureChannels",
+            "name": "Secure Channels Inc",
+            "id": 2661667974,
+            "id_str": "2661667974",
+            "indices": [
+              101,
+              116
+            ]
+          }
+        ],
+        "urls": [
+          {
+            "url": "https:\/\/t.co\/42z6wLkMHg",
+            "expanded_url": "http:\/\/bit.ly\/2cJ6kfz",
+            "display_url": "bit.ly\/2cJ6kfz",
+            "indices": [
+              77,
+              100
+            ]
+          }
+        ]
+      },
+      "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+      },
+      "source": "\u003ca href=\"http:\/\/twitter.com\/download\/android\" rel=\"nofollow\"\u003eTwitter for Android\u003c\/a\u003e",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 1017468864,
+        "id_str": "1017468864",
+        "name": "SDDC Expo",
+        "screen_name": "SDDCexpo",
+        "location": "Silicon Valley | New York",
+        "description": "New York City \u2014 Javits Center (June 7-9) Santa Clara Convention Center (Nov 1-3) Early Bird Tickets Here \u25b8 https:\/\/t.co\/jGalvTuMDJ",
+        "url": "https:\/\/t.co\/vSWErQIOV3",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "https:\/\/t.co\/vSWErQIOV3",
+                "expanded_url": "http:\/\/Events.SYS-CON.com",
+                "display_url": "Events.SYS-CON.com",
+                "indices": [
+                  0,
+                  23
+                ]
+              }
+            ]
+          },
+          "description": {
+            "urls": [
+              {
+                "url": "https:\/\/t.co\/jGalvTuMDJ",
+                "expanded_url": "http:\/\/bit.ly\/1jweClX",
+                "display_url": "bit.ly\/1jweClX",
+                "indices": [
+                  107,
+                  130
+                ]
+              }
+            ]
+          }
+        },
+        "protected": false,
+        "followers_count": 1389,
+        "friends_count": 15,
+        "listed_count": 1710,
+        "created_at": "Mon Dec 17 13:29:04 +0000 2012",
+        "favourites_count": 6716,
+        "utc_offset": -14400,
+        "time_zone": "Eastern Time (US & Canada)",
+        "geo_enabled": true,
+        "verified": false,
+        "statuses_count": 68377,
+        "lang": "en",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http:\/\/pbs.twimg.com\/profile_background_images\/378800000177099552\/0RvL72gi.jpeg",
+        "profile_background_image_url_https": "https:\/\/pbs.twimg.com\/profile_background_images\/378800000177099552\/0RvL72gi.jpeg",
+        "profile_background_tile": false,
+        "profile_image_url": "http:\/\/pbs.twimg.com\/profile_images\/423125615525756929\/nhYR78F1_normal.jpeg",
+        "profile_image_url_https": "https:\/\/pbs.twimg.com\/profile_images\/423125615525756929\/nhYR78F1_normal.jpeg",
+        "profile_banner_url": "https:\/\/pbs.twimg.com\/profile_banners\/1017468864\/1355752600",
+        "profile_link_color": "0084B4",
+        "profile_sidebar_border_color": "FFFFFF",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": false,
+        "has_extended_profile": false,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": null,
+        "follow_request_sent": null,
+        "notifications": null
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "retweeted_status": {
+        "created_at": "Tue Sep 13 12:31:28 +0000 2016",
+        "id": 775673246792421376,
+        "id_str": "775673246792421376",
+        "text": "Secure Channels to \"Exhibit\" Nov 1-3 in Silicon Valley \u25b8 https:\/\/t.co\/42z6wLkMHg @SecureChannels #IoT #ML #API #BigData #InfoSec #DataCenter",
+        "truncated": false,
+        "entities": {
+          "hashtags": [
+            {
+              "text": "IoT",
+              "indices": [
+                97,
+                101
+              ]
+            },
+            {
+              "text": "ML",
+              "indices": [
+                102,
+                105
+              ]
+            },
+            {
+              "text": "API",
+              "indices": [
+                106,
+                110
+              ]
+            },
+            {
+              "text": "BigData",
+              "indices": [
+                111,
+                119
+              ]
+            },
+            {
+              "text": "InfoSec",
+              "indices": [
+                120,
+                128
+              ]
+            },
+            {
+              "text": "DataCenter",
+              "indices": [
+                129,
+                140
+              ]
+            }
+          ],
+          "symbols": [
+            
+          ],
+          "user_mentions": [
+            {
+              "screen_name": "SecureChannels",
+              "name": "Secure Channels Inc",
+              "id": 2661667974,
+              "id_str": "2661667974",
+              "indices": [
+                81,
+                96
+              ]
+            }
+          ],
+          "urls": [
+            {
+              "url": "https:\/\/t.co\/42z6wLkMHg",
+              "expanded_url": "http:\/\/bit.ly\/2cJ6kfz",
+              "display_url": "bit.ly\/2cJ6kfz",
+              "indices": [
+                57,
+                80
+              ]
+            }
+          ]
+        },
+        "metadata": {
+          "iso_language_code": "en",
+          "result_type": "recent"
+        },
+        "source": "\u003ca href=\"http:\/\/twitter.com\/download\/iphone\" rel=\"nofollow\"\u003eTwitter for iPhone\u003c\/a\u003e",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+          "id": 62502991,
+          "id_str": "62502991",
+          "name": "Carmen Gonzalez",
+          "screen_name": "GonzalezCarmen",
+          "location": "Woodcliff Lake, NJ",
+          "description": "Co-founder, President & CEO SYS-CON Media, Ulitzer, Inc., and Cloud Expo, Inc.",
+          "url": "https:\/\/t.co\/Io1IWWI0Wf",
+          "entities": {
+            "url": {
+              "urls": [
+                {
+                  "url": "https:\/\/t.co\/Io1IWWI0Wf",
+                  "expanded_url": "http:\/\/CarmenGonzalez.Ulitzer.com",
+                  "display_url": "CarmenGonzalez.Ulitzer.com",
+                  "indices": [
+                    0,
+                    23
+                  ]
+                }
+              ]
+            },
+            "description": {
+              "urls": [
+                
+              ]
+            }
+          },
+          "protected": false,
+          "followers_count": 2218,
+          "friends_count": 15,
+          "listed_count": 1775,
+          "created_at": "Mon Aug 03 12:29:07 +0000 2009",
+          "favourites_count": 6861,
+          "utc_offset": -14400,
+          "time_zone": "Eastern Time (US & Canada)",
+          "geo_enabled": true,
+          "verified": false,
+          "statuses_count": 77425,
+          "lang": "en",
+          "contributors_enabled": false,
+          "is_translator": false,
+          "is_translation_enabled": false,
+          "profile_background_color": "080001",
+          "profile_background_image_url": "http:\/\/pbs.twimg.com\/profile_background_images\/378800000041756271\/ce7b8820a09e09f54f29c07054f9cf37.jpeg",
+          "profile_background_image_url_https": "https:\/\/pbs.twimg.com\/profile_background_images\/378800000041756271\/ce7b8820a09e09f54f29c07054f9cf37.jpeg",
+          "profile_background_tile": false,
+          "profile_image_url": "http:\/\/pbs.twimg.com\/profile_images\/378800000302066044\/cdcacb4588f3031c4980de16e68da910_normal.jpeg",
+          "profile_image_url_https": "https:\/\/pbs.twimg.com\/profile_images\/378800000302066044\/cdcacb4588f3031c4980de16e68da910_normal.jpeg",
+          "profile_banner_url": "https:\/\/pbs.twimg.com\/profile_banners\/62502991\/1460811677",
+          "profile_link_color": "1F98C7",
+          "profile_sidebar_border_color": "FFFFFF",
+          "profile_sidebar_fill_color": "DAECF4",
+          "profile_text_color": "663B12",
+          "profile_use_background_image": false,
+          "has_extended_profile": false,
+          "default_profile": false,
+          "default_profile_image": false,
+          "following": null,
+          "follow_request_sent": null,
+          "notifications": null
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 8,
+        "favorite_count": 11,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "en"
+      },
+      "is_quote_status": false,
+      "retweet_count": 8,
+      "favorite_count": 0,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "lang": "en"
+    }
+  ],
+  "search_metadata": {
+    "completed_in": 0.055,
+    "max_id": 775693278268317696,
+    "max_id_str": "775693278268317696",
+    "next_results": "?max_id=775693278268317695&q=%23api&count=1&include_entities=1",
+    "query": "%23api",
+    "refresh_url": "?since_id=775693278268317696&q=%23api&include_entities=1",
+    "count": 1,
+    "since_id": 0,
+    "since_id_str": "0"
+  }
+}
