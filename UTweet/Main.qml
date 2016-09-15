@@ -3,8 +3,6 @@ import QtQuick.Layouts 1.1
 import Ubuntu.Components 1.3
 
 
-
-
 MainView {
     // objectName for functional testing purposes (autopilot-qt5)
     objectName: "mainView"
@@ -15,9 +13,12 @@ MainView {
     width: units.gu(100)
     height: units.gu(75)
 
+    property int un : units.gu(1)
+
     AdaptivePageLayout {
         anchors.fill: parent
         primaryPage: page1
+
 
         Page {
             id:page1
@@ -38,7 +39,6 @@ MainView {
             }
             UbuntuListView {
                 id: listViewId
-                property int un : units.gu(1)
                 anchors.fill: parent
                 anchors.topMargin:  pageHeader.height + un
                 spacing: un
@@ -52,6 +52,10 @@ MainView {
             header: PageHeader {
                 id: pageHeader2
                 title:"Detail"
+            }
+            TweetDetail {
+                anchors.fill: parent
+                anchors.topMargin: pageHeader2.height + un
             }
         }
     }
