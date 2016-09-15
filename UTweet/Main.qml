@@ -25,6 +25,7 @@ MainView {
             header: PageHeader {
                 id: pageHeader
                 title: "Tweet app"
+                extension: SectionBar {}
             }
 
             Component {
