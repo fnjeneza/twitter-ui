@@ -16,54 +16,37 @@ MainView {
     height: units.gu(75)
 
 
-//    AdaptivePageLayout {
-//        anchors.fill: parent
-//        primaryPage: page1
-
-//        Page {
-//            id:page1
-//            header: PageHeader {
-//                id: pageHeader
-//                title: "Tweet app"
-//            }
 
 
-//            Component {
-//                id: tweetDelegate
-//                TweetForm {
-//                    username.text: model.username
-//                    user.text: model.user
-//                    uptime.text: model.uptime
-//                    body.text: model.body
-//                }
-//            }
-////            ListView {
-////                id: listViewId
-////                property int un : units.gu(1)
-////                anchors.fill: parent
-////                anchors.topMargin:  pageHeader.height + un
-////                spacing: un
-////                model: TweetModel {}
-////                delegate: tweetDelegate
-////            }
+    AdaptivePageLayout {
+        anchors.fill: parent
+        primaryPage: page1
 
-//            Button {
-//                text : "go to page2"
-//                anchors.top: pageHeader.bottom
-//                onClicked: page1.pageStack.addPageToCurrentColumn(page1, page2)
-//            }
+        Page {
+            id:page1
+            header: PageHeader {
+                id: pageHeader
+                title: "Tweet app"
+            }
 
-
-
-
-//        }
-//        Page {
-//            id:page2
-//            header: PageHeader {
-//                title: "Page #2"
-//            }
-//            WebPageView {}
-
-//        }
-//    }
+            Component {
+                id: tweetDelegate
+                TweetForm {
+                    username.text: model.username
+                    user.text: model.user
+                    uptime.text: model.uptime
+                    body.text: model.body
+                }
+            }
+            ListView {
+                id: listViewId
+                property int un : units.gu(1)
+                anchors.fill: parent
+                anchors.topMargin:  pageHeader.height + un
+                spacing: un
+                model: TweetModel {}
+                delegate: tweetDelegate
+            }
+        }
+    }
 }
