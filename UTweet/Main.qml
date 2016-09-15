@@ -26,6 +26,18 @@ MainView {
                 id: pageHeader
                 title: "Tweet app"
                 extension: SectionBar {}
+                trailingActionBar {
+                    actions: [
+                        Action {
+                            iconName: "contextual-menu"
+                            text: "Contextual menu"
+                        },
+                        Action {
+                            iconName: "search"
+                            text: "Search"
+                        }
+                    ]
+                }
             }
 
             Component {
