@@ -51,9 +51,10 @@ MainView {
             id: page2
             header: PageHeader {
                 id: pageHeader2
-                title:"Detail"
+                title:detailId.user
             }
             TweetDetail {
+                id: detailId
                 anchors.fill: parent
                 anchors.topMargin: pageHeader2.height + un
             }
