@@ -15,9 +15,6 @@ MainView {
     width: units.gu(100)
     height: units.gu(75)
 
-
-
-
     AdaptivePageLayout {
         anchors.fill: parent
         primaryPage: page1
@@ -36,9 +33,10 @@ MainView {
                     user.text: model.user
                     uptime.text: model.uptime
                     body.text: model.body
+                    body.onLinkActivated: page1.pageStack.addPageToCurrentColumn(page1, page2)
                 }
             }
-            ListView {
+            UbuntuListView {
                 id: listViewId
                 property int un : units.gu(1)
                 anchors.fill: parent
@@ -46,6 +44,14 @@ MainView {
                 spacing: un
                 model: TweetModel {}
                 delegate: tweetDelegate
+            }
+        }
+
+        Page {
+            id: page2
+            header: PageHeader {
+                id: pageHeader2
+                title:"Detail"
             }
         }
     }

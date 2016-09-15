@@ -19,8 +19,8 @@ Item {
 
         Rectangle {
             id: photo
-            width: 40
-            height: 40
+            width: units.gu(5)
+            height: units.gu(5)
             color: "black"
         }
 
@@ -52,7 +52,6 @@ Item {
                 Layout.fillWidth: true
                 textFormat: Text.RichText
                 linkColor: UbuntuColors.lightGrey
-                onLinkActivated: Qt.openUrlExternally(link)
                 wrapMode: Text.WrapAtWordBoundaryOrAnywhere
             }
         }
