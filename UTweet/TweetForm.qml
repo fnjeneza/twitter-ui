@@ -36,8 +36,8 @@ ListItem {
 
         Rectangle {
             id: photo
-            width: units.gu(5)
-            height: units.gu(5)
+            width: units.gu(6)
+            height: units.gu(6)
             color: "black"
         }
 
