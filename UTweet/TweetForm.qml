@@ -7,6 +7,23 @@ ListItem {
     width: parent.width
     height: rowlayoutId.implicitHeight
 
+    trailingActions: ListItemActions {
+        actions: [
+            Action {
+                iconName: "mail-reply"
+                onTriggered: {}
+            },
+            Action {
+                iconName: "retweet"
+                onTriggered: {}
+            },
+            Action {
+                iconName: "like"
+                onTriggered: {}
+            }
+        ]
+    }
+
     property alias username: usernameId
     property alias user: userId
     property alias uptime: uptimeId
