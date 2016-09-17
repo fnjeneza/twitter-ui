@@ -4,6 +4,25 @@ import Ubuntu.Components 1.3
 Sections {
     width: parent.width
     anchors.left: parent.left
-    model: ["Home", "Notification", "Message"]
-    onSelectedIndexChanged: print( "Selected section: " + model[selectedIndex])
+    actions: [
+        Action {
+            iconName: "home"
+            text: "Home"
+            onTriggered: {print("home")
+            }
+        },
+        Action {
+            iconName: "notification"
+            text: "Notification"
+            onTriggered: print("notification")
+        },
+        Action {
+            iconName: "message"
+            text: "Message"
+            onTriggered: {
+                print("message")
+            }
+        }
+
+    ]
 }
