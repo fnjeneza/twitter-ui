@@ -15,50 +15,10 @@ MainView {
 
     property int un : units.gu(1)
 
+
     AdaptivePageLayout {
         anchors.fill: parent
-        primaryPage: page1
-
-
-        Page {
-            id:page1
-            header: PageHeader {
-                id: pageHeader
-                title: "Tweet app"
-                extension: SectionBar {}
-                trailingActionBar {
-                    actions: [
-                        Action {
-                            iconName: "contextual-menu"
-                            text: "Contextual menu"
-                        },
-                        Action {
-                            iconName: "search"
-                            text: "Search"
-                        }
-                    ]
-                }
-            }
-
-            Component {
-                id: tweetDelegate
-                TweetForm {
-                    username.text: model.username
-                    user.text: model.user
-                    uptime.text: model.uptime
-                    body.text: model.body
-                    body.onLinkActivated: page1.pageStack.addPageToCurrentColumn(page1, page2)
-                }
-            }
-            ListView {
-                id: listViewId
-                anchors.fill: parent
-                anchors.topMargin:  pageHeader.height + un
-                spacing: un
-                model: TweetModel {}
-                delegate: tweetDelegate
-            }
-        }
+        primaryPage: HomePage {}
 
         Page {
             id: page2

@@ -37,5 +37,7 @@ DISTFILES += \
     WebPageView.qml \
     TweetDetail.qml \
     SectionBar.qml \
-    Settings.qml
+    Settings.qml \
+    HomePage.qml \
+    MessagePage.qml
 
