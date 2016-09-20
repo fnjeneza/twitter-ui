@@ -26,7 +26,31 @@ MainView {
             header: PageHeader {
                 id: pageHeader
                 title: "Tweet app"
-                extension: SectionBar {}
+                extension: Sections {
+                    width: parent.width
+                    anchors.left: parent.left
+                    actions: [
+                        Action {
+                            iconName: "home"
+                            text: "Home"
+                            onTriggered: {print("home")
+                            }
+                        },
+                        Action {
+                            iconName: "notification"
+                            text: "Notification"
+                            onTriggered: print("notification")
+                        },
+                        Action {
+                            iconName: "message"
+                            text: "Message"
+                            onTriggered: {
+                                print("message")
+                            }
+                        }
+
+                    ]
+                } // end sections
                 trailingActionBar {
                     actions: [
                         Action {

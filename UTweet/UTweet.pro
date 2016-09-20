@@ -36,7 +36,6 @@ INSTALLS+=config_files qml_files desktop_file
 DISTFILES += \
     WebPageView.qml \
     TweetDetail.qml \
-    SectionBar.qml \
     Settings.qml \
     HomePage.qml \
     MessagePage.qml \

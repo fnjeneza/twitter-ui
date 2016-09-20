@@ -8,6 +8,4 @@ Item {
         anchors.horizontalCenter: parent.horizontalCenter
         text: "Notification page"
     }
-
-
 }
