@@ -6,7 +6,7 @@ Item {
     Text {
         anchors.verticalCenter: parent.verticalCenter
         anchors.horizontalCenter: parent.horizontalCenter
-        text: "Message page"
+        text: "Notification page"
     }
 
 

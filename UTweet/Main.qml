@@ -40,8 +40,17 @@ MainView {
                     ]
                 }
             } //end PageHeader
+
             HomePage{
-                id: homePage
+                id: homePageId
+            }
+            MessagePage {
+                id: messagePageId
+                visible: false
+            }
+            NotificationPage{
+                id: notificationPageId
+                visible: false
             }
         }
 

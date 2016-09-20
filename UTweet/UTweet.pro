@@ -39,5 +39,6 @@ DISTFILES += \
     SectionBar.qml \
     Settings.qml \
     HomePage.qml \
-    MessagePage.qml
+    MessagePage.qml \
+    NotificationPage.qml
 
