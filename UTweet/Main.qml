@@ -33,19 +33,29 @@ MainView {
                         Action {
                             iconName: "home"
                             text: "Home"
-                            onTriggered: {print("home")
+                            onTriggered: {
+                                homePageId.visible = true
+                                notificationPageId.visible = false
+                                messagePageId.visible = false
+
                             }
                         },
                         Action {
                             iconName: "notification"
                             text: "Notification"
-                            onTriggered: print("notification")
+                            onTriggered: {
+                                homePageId.visible = false
+                                notificationPageId.visible = true
+                                messagePageId.visible = false
+                            }
                         },
                         Action {
                             iconName: "message"
                             text: "Message"
                             onTriggered: {
-                                print("message")
+                                homePageId.visible = false
+                                notificationPageId.visible = false
+                                messagePageId.visible = true
                             }
                         }
 
@@ -67,6 +77,7 @@ MainView {
 
             HomePage{
                 id: homePageId
+                visible: false
             }
             MessagePage {
                 id: messagePageId
