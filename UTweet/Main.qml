@@ -77,15 +77,12 @@ MainView {
 
             HomePage{
                 id: homePageId
-                visible: false
             }
             MessagePage {
                 id: messagePageId
-                visible: false
             }
             NotificationPage{
                 id: notificationPageId
-                visible: false
             }
         }
 
