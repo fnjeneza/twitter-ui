@@ -18,7 +18,32 @@ MainView {
 
     AdaptivePageLayout {
         anchors.fill: parent
-        primaryPage: HomePage {}
+        primaryPage: mainPage
+
+        Page {
+            id: mainPage
+
+            header: PageHeader {
+                id: pageHeader
+                title: "Tweet app"
+                extension: SectionBar {}
+                trailingActionBar {
+                    actions: [
+                        Action {
+                            iconName: "contextual-menu"
+                            text: "Contextual menu"
+                        },
+                        Action {
+                            iconName: "search"
+                            text: "Search"
+                        }
+                    ]
+                }
+            } //end PageHeader
+            HomePage{
+                id: homePage
+            }
+        }
 
         Page {
             id: page2
