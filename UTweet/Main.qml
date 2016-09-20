@@ -37,7 +37,6 @@ MainView {
                                 homePageId.visible = true
                                 notificationPageId.visible = false
                                 messagePageId.visible = false
-
                             }
                         },
                         Action {

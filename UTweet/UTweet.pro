@@ -38,5 +38,6 @@ DISTFILES += \
     Settings.qml \
     HomePage.qml \
     MessagePage.qml \
-    NotificationPage.qml
+    NotificationPage.qml \
+    resolver.js
 
